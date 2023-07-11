@@ -46,13 +46,14 @@
     margin-bottom: 15px;
 }
 .banner-content{
-    margin-left: 150px;
+    margin-left: 130px;
 }
 .banner-img{
-    margin-right: 150px;
+    margin-right: 70px;
 }
 .banner-img img{
     width: 595px;
+    margin-top: 10px;
     margin-bottom: 0px;
 }
 /* main section css */
@@ -139,3 +140,58 @@ main section{
     padding: 70px 200px 0 0;
 }
 /* instagram content css */
+.instagram{
+    margin-top: 100px;
+}
+.instagram p{
+    margin: 20px 250px;
+}
+.instagram-img{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+.instagram-img img{
+    width: 250px;
+}
+.coupon-form{
+    margin: 100px auto;
+    background-image: url('../images/coupon-bg.png');
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.coupon-form p{
+    margin: 15px;
+}
+.coupon-form form input{
+    border: none;
+    padding: 10px 20px;
+    width: 500px;
+    height: 20px;
+}
+/* footer section style */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-color: black;
+}
+.footer h3{
+    color: #FFF;
+}
+.footer p{
+    color: #FFF;
+    margin: 20px 450px;
+    text-align: center;
+}
+.footer small{
+    color: #4d4d4d;
+}
