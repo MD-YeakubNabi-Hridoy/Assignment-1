@@ -175,6 +175,52 @@ main section{
     width: 500px;
     height: 20px;
 }
+/* blog section style */
+.our-blog{
+    margin-bottom: 100px;
+}
+.our-blog p{
+    margin: 20px 250px;
+}
+.latest-blog{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    gap:15px;
+}
+.blog-content{
+    border: ;
+    box-shadow: 2px 2px 5px black;
+    padding-bottom: 20px;
+}
+.latest-blog .blog-title{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.latest-blog p{
+    text-align: justify;
+    margin: 10px;
+    padding-left: 5px;
+    line-height: 25px;
+}
+.latest-blog button{
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.latest-blog img{
+    width: 350px;
+    margin: 0;
+    height: 300px;
+}
 /* footer section style */
 .footer{
     display: flex;
