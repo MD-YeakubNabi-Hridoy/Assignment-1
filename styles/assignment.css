@@ -113,8 +113,13 @@ main section{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 300px;
+    height: 280px;
     background-color: rgba(39, 39, 39, 0.05);
+}
+.services-content p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4d4d4d;
 }
 .services-content img{
     width: 85px;
