@@ -19,12 +19,16 @@
     color: #FFF;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 .common-title{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+}
+.common-style{
+    color: #f95679;
 }
 /* header section css */
 .header{
@@ -52,8 +56,8 @@
     margin-bottom: 0px;
 }
 /* main section css */
-main{
-    max-width: 1140px;
+main section{
+    width: 1140px;
     text-align: center;
     margin: 0 auto;
 }
@@ -103,3 +107,35 @@ main{
     line-height: 35px;
 }
 /* Service section css */
+.services{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+.services-content img{
+    width: 85px;
+    margin-bottom: 15px;
+}
+/* offer section css */
+.offers{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(252, 214, 222);
+    height: 600px;
+}
+.offer-content{
+    padding: 150px 150px 0 150px;
+}
+.offer-content p{
+    margin: 10px 30px;
+}
+.offer-flower-img{
+    padding: 70px 200px 0 0;
+}
+/* instagram content css */
